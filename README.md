@@ -32,4 +32,4 @@ on a webpage.
         name: eth2_forkmon
 ```
 - Run the playbook with: ansible-playbook -i inventory/inventory.ini playbook/setup_forkmon.yml
-- eth2 forkmon should now be accessible at <server-ip>:<forkmon_http_listen_port>
+- eth2 forkmon should now be accessible at `<server-ip>:<forkmon_http_listen_port>`
